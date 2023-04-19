@@ -1,3 +1,7 @@
+.home {
+  background-color: rgb(216, 207, 199);
+}
+
 .home__page {
   display: flex;
   text-align: center;
@@ -6,18 +10,24 @@
 
 .column__centr {
   width: 50%;
-  background-color: #008000;
+  background-color: #7ec57e;
   order: 2;
+}
+
+.column__centr--text {
+  padding: 15px;
 }
 
 .column__left {
   width: 25%;
-  background-color: #3826dd;
+  background-color: #569e56;
   order: 1;
+  padding: 15px;
 }
 
 .column__right {
   width: 25%;
-  background-color: #e41a10;
+  background-color: #569e56;
   order: 3;
+  padding: 15px;
 }
